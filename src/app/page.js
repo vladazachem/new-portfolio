@@ -1,21 +1,24 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import ProjectCard from '../components/ProjectCard';
-import projects from '../data/projects';
+import Header from "@/components/Header";
+import Intro from "@/components/Intro";
+import WorksSection from "@/components/WorksSection";
+import SkillsSection from "@/components/SkillsSection";
+import EducationSection from "@/components/EducationSection";
+import Footer from "@/components/Footer";
 
-export default function HomePage() {
+export default function Home() {
     return (
-        <div className="min-h-screen bg-primary text-accent">
+        <div>
             <Header />
-            <main className="container mx-auto p-6">
-                <h2 className="text-2xl font-bold mb-6">All Works</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {projects.map((project) => (
-                        <ProjectCard key={project.id} project={project} />
-                    ))}
+            <main>
+                <Intro />
+                <WorksSection />
+                <div className="divider-line"></div>
+                <div id="about" className="global-padding about-section">
+                    <EducationSection/>
+                    <SkillsSection/>
                 </div>
             </main>
-            <Footer />
+            <Footer/>
         </div>
     );
 }

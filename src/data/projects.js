@@ -1,6 +1,7 @@
 const projects = [
     {
         id: 1,
+        slug: 'kuluar-travel-agency',
         name: 'Kuluar Travel Agency',
         preview: '/kuluar/kuluar-pre.jpg',
         miniPreview: '/kuluar.jpg',
@@ -11,6 +12,7 @@ const projects = [
     },
     {
         id: 2,
+        slug: 'foundation-coffee-roasters',
         name: 'Foundation Coffee Roasters',
         preview: '/foundation/foundation-pre.jpg',
         miniPreview: '/found.jpg',
@@ -21,6 +23,7 @@ const projects = [
     },
     {
         id: 3,
+        slug: 'style-guide',
         name: 'Style Guide',
         preview: '/guide/guide-pre.jpg',
         miniPreview: '/Guide.jpg',
@@ -31,6 +34,7 @@ const projects = [
     },
     {
         id: 4,
+        slug: 'question-of-the-day',
         name: 'Question of the Day',
         preview: '/question/Question-pre.jpg',
         miniPreview: '/Question.jpg',

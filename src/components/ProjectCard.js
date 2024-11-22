@@ -1,16 +1,21 @@
+import Link from "next/link";
+import Image from "next/image";
+
 export default function ProjectCard({ project }) {
     return (
-        <div className="border rounded-lg overflow-hidden shadow-md">
-            <img
+        <div className="flex items-center space-x-8">
+            <Image
                 src={project.preview}
                 alt={project.name}
-                className="w-full h-40 object-cover"
+                className="preview w-64 h-64 rounded-lg"
+                width={256}
+                height={256}
             />
-            <div className="p-4">
-                <h3 className="text-lg font-bold">{project.name}</h3>
-                <p className="text-sm text-gray-500">{project.role}</p>
-                <p className="text-sm mt-2">{project.description}</p>
-                <p className="text-xs text-gray-400">{project.year}</p>
+            <div>
+                <h3>{project.name}</h3>
+                <Link href={`/projects/${project.slug}`} className="text-red font-medium underline">
+                    Open Project
+                </Link>
             </div>
         </div>
     );
