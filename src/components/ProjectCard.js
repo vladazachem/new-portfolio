@@ -5,7 +5,7 @@ export default function ProjectCard({ project }) {
     return (
         <div className="flex items-center space-x-8">
             <Image
-                src={project.preview}
+                src={project.miniPreview}
                 alt={project.name}
                 className="preview w-64 h-64 rounded-lg"
                 width={256}
