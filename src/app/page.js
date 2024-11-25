@@ -1,15 +1,13 @@
-import Header from "@/components/Header";
 import Intro from "@/components/Intro";
 import ProjectsSection from "@/components/ProjectsSection";
 import SkillsSection from "@/components/SkillsSection";
 import EducationSection from "@/components/EducationSection";
-import Footer from "@/components/Footer";
+
 
 
 export default function Home() {
     return (
         <div>
-            <Header />
             <main>
                 <Intro />
                 <ProjectsSection />
@@ -19,7 +17,6 @@ export default function Home() {
                     <EducationSection/>
                 </div>
             </main>
-            <Footer/>
         </div>
     );
 }
