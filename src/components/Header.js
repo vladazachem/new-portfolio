@@ -15,10 +15,14 @@ export default function Header() {
             <nav>
                 <ul className="flex flex-row gap-14 uppercase">
                     <li>
-                        <Link href="#works" className="w-20 hover:text-highlight">All Works</Link>
+                        <Link href="#works" className="w-20 hover:text-highlight">
+                            <h5>All Works</h5>
+                        </Link>
                     </li>
                     <li>
-                        <Link href="#about" className="w-20 hover:text-highlight">About Me</Link>
+                        <Link href="#about" className="w-20 hover:text-highlight">
+                            <h5>About Me</h5>
+                        </Link>
                     </li>
                 </ul>
             </nav>
