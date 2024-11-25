@@ -1,22 +1,33 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
-        <footer className="global-padding py-10 text-center">
-            <div className="mb-6">
-                <h5>Please feel free to share your project details with me.</h5>
-                <h5>I would be happy to assist you with your website.</h5>
+        <footer className="global-padding flex flex-col">
+            <div className="flex justify-end">
+                <div className="flex flex-col">
+                    <div className="font-bold mb-6">
+                        <h5>Please feel free to share your project details with me.</h5>
+                        <h5>I would be happy to assist you with your website.</h5>
+                    </div>
+                    <div className="flex flex-col gap-4 mb-4 font-bold">
+                        <Link href="mailto:vladyslavasarokina@gmail.com" className="text-lg hover:text-highlight">
+                            vladyslavasarokina@gmail.com
+                        </Link>
+                        <Link href="https://www.instagram.com" className="text-lg hover:text-highlight">
+                            Instagram
+                        </Link>
+                        <Link href="https://www.behance.net" className="text-lg hover:text-highlight">
+                            Behance
+                        </Link>
+                        <Link href="https://github.com/vladazachem" className="text-lg hover:text-highlight">
+                            GitHub
+                        </Link>
+                    </div>
+                </div>
             </div>
-            <div className="flex justify-center gap-4 mb-4">
-                <a href="mailto:vladyslavasarokina@gmail.com" className="text-lg">
-                    vladyslavasarokina@gmail.com
-                </a>
-                <a href="https://www.instagram.com" className="text-lg">
-                    Instagram
-                </a>
-                <a href="https://www.behance.net" className="text-lg">
-                    Behance
-                </a>
+            <div className="flex justify-center">
+                <h6>2024 • Made with love by Vlada Sarokina.</h6>
             </div>
-            <h6>2024 • Made with love by Vlada Sarokina.</h6>
         </footer>
     );
 }
