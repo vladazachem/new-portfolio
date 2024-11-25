@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ProjectBanner({ project }) {
     return (
-        <div className="flex flex-col gap-4 px-21 items-center">
+        <div className="flex flex-col gap-10 px-21 items-center">
             <div
                 className="relative h-[510px] w-[759px] rounded-[30px] overflow-hidden flex justify-center items-center">
                 <Image
