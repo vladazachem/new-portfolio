@@ -4,7 +4,6 @@ import SkillsSection from "@/components/SkillsSection";
 import EducationSection from "@/components/EducationSection";
 
 
-
 export default function Home() {
     return (
         <div>
