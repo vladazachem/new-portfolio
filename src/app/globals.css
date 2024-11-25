@@ -68,6 +68,69 @@ h6 {
     font-size: 14px;
 }
 
+/*arrow link*/
+
+.arrow-link {
+    display: flex;
+    color: var(--text);
+    width: fit-content;
+    background-color: var(--main);
+    border: none;
+    padding: 20px 26px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: all .2s ease-in;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    cursor: pointer;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+}
+
+.arrow-link > .arrow {
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--text);
+    border-bottom: 2px solid var(--text);
+    position: relative;
+    transform: rotate(-45deg);
+    margin-left: 8px;
+    transition: all .2s ease-in;
+}
+
+.arrow-link > .arrow::before {
+    display: block;
+    background-color: var(--red);
+    width: 3px;
+    transform-origin: bottom right;
+    height: 2px;
+    position: absolute;
+    opacity: 0;
+    bottom: calc(-2px / 2);
+    transform: rotate(45deg);
+    transition: all .2s ease-in;
+    content: "";
+    right: 0;
+}
+
+.arrow-link:hover > .arrow {
+    transform: rotate(-45deg) translate(30px, 30px);
+    border-color: var(--red);
+}
+
+.arrow-link:hover > .arrow::before {
+    opacity: 1;
+    width: 40px;
+}
+
+.arrow-link:hover {
+    border: none;
+    padding: 20px 80px 20px 20px;
+    font-weight: 400;
+    color: var(--red);
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
     width: 0.5em;
