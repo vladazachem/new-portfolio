@@ -5,6 +5,9 @@ import Footer from "@/components/Footer";
 export const metadata = {
     title: 'Vlada Sarokina | Junior Front-End Developer & Web Designer',
     description: 'Portfolio of Vlada Sarokina, showcasing projects and skills.',
+    icons: {
+      icon: '/logo.png'
+    },
 };
 
 export default function RootLayout({ children }) {
