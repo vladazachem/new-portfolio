@@ -1,4 +1,7 @@
 import projects from "@/data/projects";
+import ProjectBanner from "@/components/ProjectBanner";
+import ProjectInfo from "@/components/ProjectInfo";
+import Link from "next/link";
 
 export async function generateStaticParams() {
     return projects.map((project) => ({
@@ -20,14 +23,10 @@ export default async function ProjectPage({ params }) {
     }
 
     return (
-        <div className="py-16 px-12">
-            <h1 className="text-4xl font-semibold mb-8">{project.name}</h1>
-            <img
-                src={project.banner}
-                alt={project.name}
-                className="w-full rounded-lg mb-8"
-            />
-            <p className="text-lg">{project.description}</p>
+        <div className="flex flex-col items-center px-[80px] py-[140px]">
+            <ProjectBanner project={project} />
+            <ProjectInfo project={project} />
+            <Link href={project.link} className="arrow-link">Open project<span className="arrow"></span></Link>
         </div>
     );
 }
