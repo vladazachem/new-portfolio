@@ -22,6 +22,10 @@
     background-color: var(--main);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--text);
 }
