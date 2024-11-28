@@ -9,15 +9,15 @@ export default function WorkSection() {
     const [activeProjectId, setActiveProjectId] = useState(projects[0].id);
 
     return (
-        <section id="works" className="myworks">
-            <h2 className="text-5xl font-medium mb-12 text-center">All Works</h2>
-            <div className="flex flex-wrap items-center justify-center space-y-8 md:space-y-0 md:space-x-16">
-                <div className="previews">
+        <section id="works" className="flex flex-col gap-40 pt-40 pb-72 justify-center">
+            <h2 className="font-medium text-center">All Works</h2>
+            <div className="flex flex-wrap items-center justify-center md:space-x-40">
+                <div>
                     {projects.map((project) => (
                             <Image
                                 src={project.miniPreview}
                                 alt={`${project.name} preview`}
-                                className={`w - 64 h-64 rounded-lg ${
+                                className={`w-64 h-64 rounded-3xl ${
                                     activeProjectId === project.id ? "block" : "hidden"
                                 }`}
                                 key={project.id}
@@ -26,12 +26,11 @@ export default function WorkSection() {
                             />
                     ))}
                 </div>
-                <ul className="list space-y-4">
+                <ul className="space-y-6">
                     {projects.map((project) => (
                         <ProjectsList
                             key={project.id}
                             project={project}
-                            isActive={activeProjectId === project.id}
                             onHover={setActiveProjectId}
                         />
                     ))}
