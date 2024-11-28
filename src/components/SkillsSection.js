@@ -3,15 +3,13 @@ import skills from "@/data/skills";
 export default function SkillsSection() {
     return (
         <section id="skills" className="py-24">
-            <h2 className="text-5xl font-medium mb-16">01 Software Skills</h2>
-            <div className="grid grid-cols-2 gap-8">
-                <ul className="space-y-4">
-                    {skills.map((skill, index) => (
-                        <li key={index} className="text-lg">
-                            {skill}
-                        </li>
-                    ))}
-                </ul>
+            <h4 className="font-semibold mb-16">01 Software Skills</h4>
+            <div className="grid grid-cols-4 grid-rows-4 grid-flow-col gap-8">
+                {skills.map((skill, index) => (
+                    <p key={index} className="text-lg">
+                        {skill}
+                    </p>
+                ))}
             </div>
         </section>
     );

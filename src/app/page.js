@@ -1,7 +1,6 @@
 import Intro from "@/components/Intro";
 import ProjectsSection from "@/components/ProjectsSection";
-import SkillsSection from "@/components/SkillsSection";
-import EducationSection from "@/components/EducationSection";
+import AboutMeSection from "@/components/AboutMeSection";
 
 
 export default function Home() {
@@ -11,10 +10,7 @@ export default function Home() {
                 <Intro />
                 <ProjectsSection />
                 <div className="divider-line"></div>
-                <div id="about" className="global-padding about-section">
-                    <SkillsSection/>
-                    <EducationSection/>
-                </div>
+                <AboutMeSection />
             </main>
         </div>
     );
