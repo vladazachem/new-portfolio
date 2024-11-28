@@ -1,6 +1,13 @@
+"use client"
+
 import Link from "next/link";
+import {usePathname} from "next/navigation";
 
 export default function Header() {
+    const pathname = usePathname();
+
+    const isMainPage = pathname === "/";
+
     return (
         <header className="flex justify-between items-center">
             <Link href="/">
@@ -14,16 +21,26 @@ export default function Header() {
             </Link>
             <nav>
                 <ul className="flex flex-row gap-14 uppercase">
-                    <li>
-                        <Link href="#works" className="w-20 hover:text-highlight">
-                            <h5>All Works</h5>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="#about" className="w-20 hover:text-highlight">
-                            <h5>About Me</h5>
-                        </Link>
-                    </li>
+                    {isMainPage ? (
+                        <>
+                            <li>
+                                <Link href="#works" className="w-20 hover:text-highlight">
+                                    <h5>All Works</h5>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="#about" className="w-20 hover:text-highlight">
+                                    <h5>About Me</h5>
+                                </Link>
+                            </li>
+                        </>
+                    ) : (
+                        <li>
+                            <Link href="/" className="w-20 hover:text-highlight">
+                                <h5>Home</h5>
+                            </Link>
+                        </li>
+                    )}
                 </ul>
             </nav>
         </header>
