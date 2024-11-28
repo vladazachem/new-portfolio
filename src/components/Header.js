@@ -24,12 +24,12 @@ export default function Header() {
                     {isMainPage ? (
                         <>
                             <li>
-                                <Link href="#works" className="w-20 hover:text-highlight">
+                                <Link href="/#works" className="w-20 hover:text-highlight">
                                     <h5>All Works</h5>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#about" className="w-20 hover:text-highlight">
+                                <Link href="/#about" className="w-20 hover:text-highlight">
                                     <h5>About Me</h5>
                                 </Link>
                             </li>
