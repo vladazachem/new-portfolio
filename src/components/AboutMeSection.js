@@ -1,6 +1,7 @@
 import SkillsSection from "@/components/SkillsSection";
 import EducationSection from "@/components/EducationSection";
 
+
 export default function AboutMeSection() {
     return (
         <section id="about" className="flex flex-col gap-24 py-16">
@@ -22,8 +23,8 @@ export default function AboutMeSection() {
                     <EducationSection/>
                 </div>
             </div>
-            <div className="z-0 absolute top-[340px] right-[50px]">
-                <svg id="point-animation" width="319" height="319" viewBox="0 0 319 319" fill="none"
+            <div id="point-animation" className="-z-1 absolute top-[2500px] right-[80px]">
+                <svg width="319" height="319" viewBox="0 0 319 319" fill="none"
                      xmlns="http://www.w3.org/2000/svg">
                     <circle cx="159.142" cy="159.142" r="122" transform="rotate(22.2768 159.142 159.142)"
                             fill="#2570BB"></circle>
