@@ -5,7 +5,7 @@ import { gsap } from "gsap";
 
 export default function BlinkEyeAnimation () {
     const outerCircleRef = useRef(null);
-    const clipPathRef = useRef();
+    const clipPathRef = useRef(null);
 
     useEffect(() => {
         const tl = gsap.timeline({ repeat: 1, delay: 2 });
