@@ -152,11 +152,3 @@ h6 {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--text);
 }
-
-
-/*Animation*/
-
-#point-animation {
-    animation: eye 4s cubic-bezier(.67,.09,.01,1.68) infinite alternate;
-    transform-origin: center center;
-}
