@@ -1,6 +1,6 @@
 import SkillsSection from "@/components/SkillsSection";
 import EducationSection from "@/components/EducationSection";
-
+import WatchingEye from "@/components/animations/WatchingEye";
 
 export default function AboutMeSection() {
     return (
@@ -23,19 +23,7 @@ export default function AboutMeSection() {
                     <EducationSection/>
                 </div>
             </div>
-            <div id="point-animation" className="-z-1 absolute top-[2500px] right-[80px]">
-                <svg width="319" height="319" viewBox="0 0 319 319" fill="none"
-                     xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="159.142" cy="159.142" r="122" transform="rotate(22.2768 159.142 159.142)"
-                            fill="#2570BB"></circle>
-                    <circle cx="131.743" cy="169.644" r="88" transform="rotate(22.2768 131.743 169.644)"
-                            fill="#F06543"></circle>
-                    <circle cx="102.996" cy="179.873" r="52.5" transform="rotate(22.2768 102.996 179.873)"
-                            fill="#EDE8E4"></circle>
-                    <circle cx="70.87" cy="191.027" r="14" transform="rotate(22.2768 70.87 191.027)"
-                            fill="#181410"></circle>
-                </svg>
-            </div>
+            <WatchingEye />
         </section>
     );
 }
