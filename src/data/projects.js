@@ -48,7 +48,8 @@ const projects = [
         miniPreview: "/Question.jpg",
         banner: "/question/Question-banner.jpg",
         description: ["This project is part of the Challenge Projects offered by Codecademy.",
-            "I developed a message generator program that provides a unique, randomized output every time a user runs it. This project allowed me to enhance my JavaScript skills and explore dynamic content generation."
+            "I developed a message generator program that provides a unique, randomized output every time a user runs it.",
+            "This project allowed me to enhance my JavaScript skills and explore dynamic content generation."
         ],
         year: 2023,
         role: "Front-End Dev",
