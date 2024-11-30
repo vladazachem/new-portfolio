@@ -5,7 +5,7 @@ const education = [
         year: '2024 - Present',
     },
     {
-        degree: 'Full-Stack Engineer',
+        degree: 'Front-End Engineer',
         institution: 'Codecademy',
         year: '2024',
     },
