@@ -3,10 +3,9 @@ import EducationSection from "@/components/EducationSection";
 import WatchingEye from "@/components/animations/WatchingEye";
 
 export default function AboutMeSection() {
-    return (
-        <section id="about" className="flex flex-col gap-24 py-16">
+    return (<section id="about" className="flex flex-col gap-24 pt-16">
             <h2 className="font-medium text-center">About me</h2>
-            <div className="flex flex-col w-[52%]">
+            <div className="flex flex-col w-[52%] md:w-full">
                 <div className="flex flex-col gap-8">
                     <h4>When working on a project, what I like the most is the process of bringing an idea to life, as
                         well as the systematization of information within the project.</h4>
