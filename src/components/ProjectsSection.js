@@ -11,8 +11,9 @@ export default function WorkSection() {
     return (
         <section id="works" className="flex flex-col gap-40 pt-40 pb-72 justify-center">
             <h2 className="font-medium text-center">All Works</h2>
-            <div className="flex flex-wrap items-center justify-center md:space-x-40">
-                <div>
+            <div className="flex flex-wrap items-center justify-center
+            gap-40">
+                <div className="previews">
                     {projects.map((project) => (
                             <Image
                                 src={project.miniPreview}
@@ -26,7 +27,7 @@ export default function WorkSection() {
                             />
                     ))}
                 </div>
-                <ul className="space-y-6">
+                <ul id="project-links" className="space-y-6 items-center">
                     {projects.map((project) => (
                         <ProjectsList
                             key={project.id}
