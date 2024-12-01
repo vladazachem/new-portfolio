@@ -11,11 +11,14 @@ export default function Header() {
     return (
         <header className="flex justify-between items-center">
             <Link href="/">
-                <h3>
+                <h3 className="xs:text-[17px] md:text-[25px]">
                     Hi, I&apos;m{" "}
                     <b className="relative font-medium">
                         Vlada
-                        <span className="before:absolute before:content-[''] before:w-[95px] before:h-[1px] before:bg-text before:top-10 before:left-0"></span>
+                        <span className="before:absolute before:content-[''] before:w-[95px] before:h-[1px] before:bg-text before:top-10 before:left-0
+                        xs:before:w-[55px] xs:before:top-[25px]
+                        md:before:w-[80px] md:before:top-[33px]
+                        "></span>
                     </b>
                 </h3>
             </Link>
