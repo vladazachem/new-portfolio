@@ -23,7 +23,7 @@ export default async function ProjectPage({ params }) {
     }
 
     return (
-        <div className="flex flex-col items-center px-[80px] py-[140px]">
+        <div className="flex flex-col items-center py-[140px]">
             <ProjectBanner project={project} />
             <ProjectInfo project={project} />
             <Link href={project.link} className="arrow-link">Open project<span className="arrow"></span></Link>

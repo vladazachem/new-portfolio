@@ -4,26 +4,26 @@ export default function ProjectBanner({ project }) {
     return (
         <div className="flex flex-col gap-10 px-21 items-center">
             <div
-                className="relative h-[510px] w-[759px] rounded-[30px] overflow-hidden flex justify-center items-center">
+                className="flex justify-center items-center rounded-[30px] overflow-hidden">
                 <Image
                     src={project.banner}
                     alt={project.name}
                     key={project.id}
                     loading="eager"
-                    fill
-                    sizes="759px"
+                    width={759}
+                    height={510}
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     priority
                 />
             </div>
-            <div className="flex flex-row justify-between w-[759px]">
+            <div className="flex flex-row justify-between w-full">
                 <div className="flex flex-col gap-4">
-                    <h5 className="text-lg">{project.name}</h5>
-                    <h5 className="text-lg">{project.role}</h5>
+                    <h5 className="text-lg xs:text-base">{project.name}</h5>
+                    <h5 className="text-lg xs:text-base">{project.role}</h5>
                 </div>
                 <div className="flex flex-col gap-4">
-                    <h5 className="text-lg text-right">{project.year}</h5>
-                    <h5 className="text-lg text-right">{project.type}</h5>
+                    <h5 className="text-lg text-right xs:text-base">{project.year}</h5>
+                    <h5 className="text-lg text-right xs:text-base">{project.type}</h5>
                 </div>
             </div>
         </div>
