@@ -6,7 +6,7 @@ export default function ProjectsList({ project, onHover }) {
             className={`cursor-pointer`}
             onMouseEnter={() => onHover(project.id)}
         >
-            <Link href={`/projects/${project.slug}`} className="font-medium hover:text-highlight">
+            <Link href={`/projects/${project.slug}`} className="font-medium text-center hover:text-highlight">
                 <h3>{project.name}</h3>
             </Link>
         </li>
