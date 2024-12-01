@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="flex flex-col ">
+        <footer className="flex flex-col">
             <div className="flex justify-end sm:justify-start">
                 <div className="flex flex-col">
                     <div className="font-bold mb-6">
@@ -26,7 +26,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="flex justify-center">
-                <h6>2024 • Made with love by Vlada Sarokina.</h6>
+                <h6 className="xxs:text-xs">2024 • Made with love by Vlada Sarokina.</h6>
             </div>
         </footer>
     );
