@@ -37,15 +37,13 @@ export default function WatchingEye() {
     }, []);
 
     return (
-        <div id="point-animation" className="-z-1 absolute top-[2500px] right-[80px]">
+        <div className="-z-1 absolute top-[2500px] right-[80px] w-fit h-fit bg-transparent">
             <svg
                 ref={animationRef}
-                id="point-animation"
-                width="319"
-                height="319"
                 viewBox="0 0 319 319"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="bg-transparent w-[320px] h-[320px] md:hidden lg:w-[250px] lg:h-[250px]"
             >
                 <circle cx="159.142" cy="159.142" r="122" fill="#2570BB"/>
                 <circle cx="131.743" cy="169.644" r="88" fill="#F06543"/>
