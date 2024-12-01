@@ -19,7 +19,7 @@ export default function Header() {
                     </b>
                 </h3>
             </Link>
-            <nav>
+            <nav className="sm:hidden">
                 <ul className="flex flex-row gap-14 uppercase">
                     {isMainPage ? (
                         <>
