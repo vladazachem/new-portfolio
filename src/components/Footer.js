@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="global-padding flex flex-col">
-            <div className="flex justify-end">
+        <footer className="flex flex-col ">
+            <div className="flex justify-end sm:justify-start">
                 <div className="flex flex-col">
                     <div className="font-bold mb-6">
                         <h5>Please feel free to share your project details with me.</h5>
