@@ -13,7 +13,7 @@ export default function WorkSection() {
             <h2 className="font-medium text-center">All Works</h2>
             <div className="flex flex-wrap items-center justify-center
             gap-40">
-                <div className="previews">
+                <div className="md:hidden">
                     {projects.map((project) => (
                             <Image
                                 src={project.miniPreview}
