@@ -11,7 +11,7 @@ const education = [
     },
     {
         degree: 'Bachelor of Cybersecurity',
-        institution: 'National University "Odessa Law Academy"',
+        institution: 'National University "Odesa Law Academy"',
         year: '2017 - 2021',
     },
 ];
