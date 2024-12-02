@@ -7,9 +7,9 @@ export default function AboutMeSection() {
             <h2 className="font-medium text-center">About me</h2>
             <div className="flex flex-col w-[52%] md:w-full">
                 <div className="flex flex-col gap-8">
-                    <h4>When working on a project, what I like the most is the process of bringing an idea to life, as
+                    <h4>When working on a project, what I like the most is the process of bringing an idea to life as
                         well as the systematization of information within the project.</h4>
-                    <h4>I love to work with new people and to challenge myself in trying new things. I want my work to
+                    <h4>I love to work with new people and challenge myself to try new things. I want my work to
                         be beneficial for people functionally and emotionally. I seek new experience and look forward to
                         new opportunities.</h4>
                     <h4>Our communication is possible in the following languages: <b className="font-semibold">English,
