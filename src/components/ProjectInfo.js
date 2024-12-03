@@ -16,6 +16,8 @@ export default function ProjectInfo({ project }) {
                        alt={project.name}
                        width={1200}
                        height={680}
+                       quality={100}
+                       unoptimized
                 />
             </div>
         </div>

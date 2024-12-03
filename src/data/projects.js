@@ -4,7 +4,7 @@ const projects = [
         slug: "portfolio",
         name: "Portfolio Project",
         preview: "/portfolio/Portfolio-pre.png",
-        miniPreview: "/portfolio.png",
+        miniPreview: "/Portfolio.jpg",
         banner: "/portfolio/Portfolio-banner.png",
         description: ["This is my personal portfolio website, designed and developed by me, Vlada Sarokina, using Next.js.",
         "It showcases my skills, projects, and experience as a Junior Front-End Developer and Web Designer.",

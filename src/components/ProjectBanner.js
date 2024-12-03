@@ -9,11 +9,11 @@ export default function ProjectBanner({ project }) {
                     src={project.banner}
                     alt={project.name}
                     key={project.id}
-                    loading="eager"
                     width={759}
                     height={510}
                     style={{ objectFit: "cover", objectPosition: "center" }}
-                    priority
+                    quality={100}
+                    unoptimized
                 />
             </div>
             <div className="flex flex-row justify-between w-full">

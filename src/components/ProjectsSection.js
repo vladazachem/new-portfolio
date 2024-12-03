@@ -24,6 +24,8 @@ export default function WorkSection() {
                                 key={project.id}
                                 width={256}
                                 height={256}
+                                quality={100}
+                                unoptimized
                             />
                     ))}
                 </div>
