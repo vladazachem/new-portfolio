@@ -3,7 +3,7 @@ const projects = [
         id: 1,
         slug: "portfolio",
         name: "Portfolio Project",
-        preview: "/portfolio/Portfolio-pre.png",
+        preview: "/portfolio/portfolio-pre.png",
         miniPreview: "/Portfolio.jpg",
         banner: "/portfolio/Portfolio-banner.png",
         description: ["This is my personal portfolio website, designed and developed by me, Vlada Sarokina, using Next.js.",
