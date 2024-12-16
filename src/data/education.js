@@ -2,7 +2,7 @@ const education = [
     {
         degree: 'React Practical',
         institution: 'SoftServe Academy',
-        year: '2024 - Present',
+        year: '2024',
     },
     {
         degree: 'Front-End Engineer',
