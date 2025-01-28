@@ -10,8 +10,8 @@ const projects = [
         "It showcases my skills, projects, and experience as a Junior Front-End Developer and Web Designer.",
         "With a clean, minimalist design and responsive functionality, it reflects my passion for creating user-friendly and visually appealing web solutions."],
         year: 2024,
-        role: "Front-End Dev",
-        type: "Study Project",
+        role: "Designer, Front-End Dev",
+        type: "Live Client Project",
         link: "https://github.com/vladazachem/new-portfolio",
     },
     {
@@ -53,10 +53,26 @@ const projects = [
             "I developed a message generator program that provides a unique, randomized output every time a user runs it.",
             "This project allowed me to enhance my JavaScript skills and explore dynamic content generation."
         ],
-        year: 2023,
+        year: 2024,
         role: "Front-End Dev",
         type: "Study Project",
         link: "https://github.com/vladazachem/Codecademy_Question-of-the-Day",
+    },
+    {
+        id: 5,
+        slug: "Tymoteusz-Piatek",
+        name: "Tymoteusz Piątek/Teksty",
+        preview: "tymoteuszpiatek/tp-pre.jpg",
+        miniPreview: "/TymoteuszPiatek.png",
+        banner: "tymoteuszpiatek/tp-banner.jpg",
+        description: ["A dynamic and responsive portfolio website showcasing creative writing, built with Next.js and Tailwind CSS. It features categorized project lists, detailed content pages, and a minimalist design for readability.",
+            "Back-End powered by PostgreSQL and Neon for seamless data management. The site includes a fully functional menu for intuitive navigation across all devices, responsive layouts, and smooth transitions.",
+            "Deployed on Vercel for fast performance, the project emphasizes professionalism and accessibility, aligning perfectly with the author's creative vision."
+        ],
+        year: 2025,
+        role: "Designer, Front-End Dev",
+        type: "Live Client Project",
+        link: "https://tymoteuszpiatek-portfolio.vercel.app/",
     },
 ];
 
