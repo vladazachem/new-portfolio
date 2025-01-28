@@ -62,9 +62,9 @@ const projects = [
         id: 5,
         slug: "Tymoteusz-Piatek",
         name: "Tymoteusz Piątek/Teksty",
-        preview: "tymoteuszpiatek/tp-pre.jpg",
+        preview: "/tymoteuszpiatek/tp-pre.jpg",
         miniPreview: "/TymoteuszPiatek.png",
-        banner: "tymoteuszpiatek/tp-banner.jpg",
+        banner: "/tymoteuszpiatek/tp-banner.jpg",
         description: ["A dynamic and responsive portfolio website showcasing creative writing, built with Next.js and Tailwind CSS. It features categorized project lists, detailed content pages, and a minimalist design for readability.",
             "Back-End powered by PostgreSQL and Neon for seamless data management. The site includes a fully functional menu for intuitive navigation across all devices, responsive layouts, and smooth transitions.",
             "Deployed on Vercel for fast performance, the project emphasizes professionalism and accessibility, aligning perfectly with the author's creative vision."
