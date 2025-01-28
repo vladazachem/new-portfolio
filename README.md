@@ -1,4 +1,4 @@
-# Project Title
+# Portfolio Project
 
 A modern web application built with cutting-edge technologies for performance, scalability, and usability.
 
