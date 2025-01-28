@@ -7,6 +7,7 @@ import projects from "@/data/projects";
 
 export default function WorkSection() {
     const [activeProjectId, setActiveProjectId] = useState(projects[0].id);
+    const reversedProjects = [...projects].reverse();
 
     return (
         <section id="works" className="flex flex-col gap-40 pt-40 pb-72 justify-center">
@@ -14,7 +15,7 @@ export default function WorkSection() {
             <div className="flex flex-wrap items-center justify-center
             gap-40">
                 <div className="md:hidden">
-                    {projects.map((project) => (
+                    {reversedProjects.map((project) => (
                             <Image
                                 src={project.miniPreview}
                                 alt={`${project.name} preview`}
@@ -30,7 +31,7 @@ export default function WorkSection() {
                     ))}
                 </div>
                 <ul id="project-links" className="space-y-6 items-center">
-                    {projects.map((project) => (
+                    {reversedProjects.map((project) => (
                         <ProjectsList
                             key={project.id}
                             project={project}
