@@ -16,7 +16,7 @@ export default function Footer() {
                         <Link href="https://www.instagram.com" className="text-lg hover:text-highlight">
                             Instagram
                         </Link>
-                        <Link href="https://www.behance.net" className="text-lg hover:text-highlight">
+                        <Link href="https://www.behance.net/vladasarokina" className="text-lg hover:text-highlight">
                             Behance
                         </Link>
                         <Link href="https://github.com/vladazachem" className="text-lg hover:text-highlight">
