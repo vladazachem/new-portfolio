@@ -70,7 +70,7 @@ const projects = [
             "Deployed on Vercel for fast performance, the project emphasizes professionalism and accessibility, aligning perfectly with the author's creative vision."
         ],
         year: 2025,
-        role: "Designer, Front-End Dev",
+        role: "Designer, Full-Stack Dev",
         type: "Live Client Project",
         link: "https://tymoteuszpiatek-portfolio.vercel.app/",
     },
