@@ -65,15 +65,22 @@ const projects = [
         preview: "/tymoteuszpiatek/tp-pre.jpg",
         miniPreview: "/TymoteuszPiatek.png",
         banner: "/tymoteuszpiatek/tp-banner.jpg",
-        description: ["A dynamic and responsive portfolio website showcasing creative writing, built with Next.js and Tailwind CSS. It features categorized project lists, detailed content pages, and a minimalist design for readability.",
-            "Back-End powered by PostgreSQL and Neon for seamless data management. The site includes a fully functional menu for intuitive navigation across all devices, responsive layouts, and smooth transitions.",
-            "Deployed on Vercel for fast performance, the project emphasizes professionalism and accessibility, aligning perfectly with the author's creative vision."
-        ],
+        description: [
+            "A dynamic and responsive portfolio website showcasing creative writing, built with Next.js and Tailwind CSS. It features categorized project lists, detailed content pages, and a minimalist design for readability.",
+            "Front-End powered by Next.js, React.js, and Tailwind CSS, with Framer Motion for smooth animations and transitions, ensuring an engaging user experience.",
+            "Back-End is handled with Next.js API Routes, providing efficient data fetching and seamless content management.",
+            "Data is stored in a PostgreSQL database, hosted on Neon.tech for reliability and scalability.",
+            "The project is deployed on Vercel, ensuring fast performance, automatic scaling, and continuous deployment for a seamless experience.",
+            "Version control is managed through Git and GitHub, enabling smooth collaboration and development.",
+            "Designed in Figma, the website follows a clean and professional aesthetic, aligning perfectly with the author's creative vision.",
+            "Optimized with Next.js Image Optimization and Lazy Loading for enhanced SEO and performance, making the site fast and accessible across all devices."
+        ],        
         year: 2025,
         role: "Designer, Full-Stack Dev",
         type: "Live Client Project",
         link: "https://tymoteuszpiatek-portfolio.vercel.app/",
     },
+    
 ];
 
 export default projects;
