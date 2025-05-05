@@ -22,6 +22,9 @@ export default function Footer() {
                         <Link href="https://github.com/vladazachem" className="text-lg hover:text-highlight">
                             GitHub
                         </Link>
+                        <a href="/CV-Vladyslava Sarokina-WebDev.pdf" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-highlight">
+                            My CV
+                        </a>
                     </div>
                 </div>
             </div>
