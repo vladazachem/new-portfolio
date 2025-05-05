@@ -64,7 +64,7 @@ const projects = [
         name: "Tymoteusz Piątek/Teksty",
         preview: "/tymoteuszpiatek/tp-pre.jpg",
         miniPreview: "/TymoteuszPiatek.png",
-        banner: "/tymoteuszpiatek/tp-banner.jpg",
+        banner: "/tymoteuszpiatek/tp-banner.png",
         description: [
             "A dynamic and responsive portfolio website showcasing creative writing, built with Next.js and Tailwind CSS. It features categorized project lists, detailed content pages, and a minimalist design for readability.",
             "Front-End powered by Next.js, React.js, and Tailwind CSS, with Framer Motion for smooth animations and transitions, ensuring an engaging user experience.",
