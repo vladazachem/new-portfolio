@@ -102,6 +102,29 @@ const projects = [
         role: "Webflow Developer",
         type: "Live Client Project",
         link: "https://www.onda-retreats.com/",
+    },
+    {
+        id: 7,
+        slug: "Anton-Shtuka",
+        name: "Anton Shtuka | Photographer | Filmmaker",
+        preview: "/anton-shtuka/Preview-Shtuka.png",
+        miniPreview: "/Anton Shtuka.png",
+        banner: "/anton-shtuka/Banner-Shtuka.png",
+        title: "Anton Shtuka | Photographer | Filmmaker",
+        description: [
+            "A bold, editorial-style photography and videography portfolio for war journalist Anton Shtuka, developed in Webflow with a strong focus on layout and storytelling.",
+            "Handled the full Webflow development based on the client’s visual direction, ensuring minimalistic, asymmetrical grid layouts that highlight the intensity of the work.",
+            "Structured Webflow CMS to manage photography and video projects, news journal entries, and media press coverage efficiently.",
+            "Implemented Finsweet Attributes for a fully dynamic CMS slider, showcasing multi-image galleries from featured projects.",
+            "Developed a custom flexible loading screen to control content rendering and enhance first impression visuals across devices.",
+            "Created scroll-based animations and section-triggered transitions to guide users through the narrative-heavy layout.",
+            "Optimized responsive behavior and visual hierarchy across all screen sizes, including custom mobile adjustments.",
+            "Focused on performance and content scalability, ensuring the site loads quickly and is easy to maintain via the Webflow Editor."
+          ],
+        year: 2025,
+        role: "Webflow Developer",
+        type: "Live Client Project",
+        link: "https://www.antonshtuka.com/",
     }
 ];
 
