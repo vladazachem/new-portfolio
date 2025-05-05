@@ -84,9 +84,9 @@ const projects = [
         id: 6,
         slug: "Onda-Retreats",
         name: "Onda Retreats",
-        preview: "/Onda/Banner-onda.png",
+        preview: "/Onda/Preview-onda.png",
         miniPreview: "/Onda.png",
-        banner: "/Onda/Preview-onda.png",
+        banner: "/Onda/Banner-onda.png",
         title: "Onda Retreats",
         description: [
             "A visually immersive and responsive retreat booking website, built in Webflow as part of a collaborative project team.",
