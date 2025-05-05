@@ -81,7 +81,7 @@ const projects = [
         link: "https://tymoteuszpiatek-portfolio.vercel.app/",
     },
     {
-        id: 5,
+        id: 6,
         slug: "Onda-Retreats",
         name: "Onda Retreats",
         preview: "/Onda/Banner-onda.png",
