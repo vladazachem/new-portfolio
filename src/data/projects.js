@@ -21,7 +21,7 @@ const projects = [
         miniPreview: "/found.jpg",
         banner: "/foundation/banner.jpg",
         description: ["This project is one of the Challenge Projects offered by Codecademy.",
-            "Throughout this project, I have utilized flexbox to design and construct the layout for a company’s homepage."],
+            "Throughout this project, I have utilized flexbox to design and construct the layout for a company's homepage."],
         year: 2024,
         role: "Front-End Dev",
         type: "Study Project",
@@ -90,7 +90,7 @@ const projects = [
         title: "Onda Retreats",
         description: [
             "A visually immersive and responsive retreat booking website, built in Webflow as part of a collaborative project team.",
-            "Implemented front-end development entirely in Webflow, following the client’s vision and design direction provided in Figma.",
+            "Implemented front-end development entirely in Webflow, following the client's vision and design direction provided in Figma.",
             "Utilized Webflow CMS to structure dynamic content across key sections such as the retreat schedule, gallery, and testimonials.",
             "Integrated Webflow Interactions to create smooth animations and transitions for an engaging browsing experience.",
             "Built a CMS-powered multi-image gallery slider, allowing easy content updates through the Webflow Editor.",
@@ -113,7 +113,7 @@ const projects = [
         title: "Anton Shtuka | Photographer | Filmmaker",
         description: [
             "A bold, editorial-style photography and videography portfolio for war journalist Anton Shtuka, developed in Webflow with a strong focus on layout and storytelling.",
-            "Handled the full Webflow development based on the client’s visual direction, ensuring minimalistic, asymmetrical grid layouts that highlight the intensity of the work.",
+            "Handled the full Webflow development based on the client's visual direction, ensuring minimalistic, asymmetrical grid layouts that highlight the intensity of the work.",
             "Structured Webflow CMS to manage photography and video projects, news journal entries, and media press coverage efficiently.",
             "Implemented Finsweet Attributes for a fully dynamic CMS slider, showcasing multi-image galleries from featured projects.",
             "Developed a custom flexible loading screen to control content rendering and enhance first impression visuals across devices.",
