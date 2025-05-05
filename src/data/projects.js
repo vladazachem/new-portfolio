@@ -109,7 +109,7 @@ const projects = [
         name: "Anton Shtuka | Photographer | Filmmaker",
         preview: "/anton-shtuka/Preview-Shtuka.png",
         miniPreview: "/Anton Shtuka.png",
-        banner: "/anton-shtuka/Banner-Shtuka.png",
+        banner: "/anton-shtuka/Website preview Shtuka.png",
         title: "Anton Shtuka | Photographer | Filmmaker",
         description: [
             "A bold, editorial-style photography and videography portfolio for war journalist Anton Shtuka, developed in Webflow with a strong focus on layout and storytelling.",
