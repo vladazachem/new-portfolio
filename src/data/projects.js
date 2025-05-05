@@ -80,7 +80,29 @@ const projects = [
         type: "Live Client Project",
         link: "https://tymoteuszpiatek-portfolio.vercel.app/",
     },
-    
+    {
+        id: 5,
+        slug: "Onda-Retreats",
+        name: "Onda Retreats",
+        preview: "/Onda/Banner-onda.png",
+        miniPreview: "/Onda.png",
+        banner: "/Onda/Preview-onda.png",
+        title: "Onda Retreats",
+        description: [
+            "A visually immersive and responsive retreat booking website, built in Webflow as part of a collaborative project team.",
+            "Implemented front-end development entirely in Webflow, following the client’s vision and design direction provided in Figma.",
+            "Utilized Webflow CMS to structure dynamic content across key sections such as the retreat schedule, gallery, and testimonials.",
+            "Integrated Webflow Interactions to create smooth animations and transitions for an engaging browsing experience.",
+            "Built a CMS-powered multi-image gallery slider, allowing easy content updates through the Webflow Editor.",
+            "Developed a custom day-by-day schedule slider to let users explore retreat programs with enhanced clarity and navigation.",
+            "Ensured full responsiveness across devices, with smooth layout adjustments and an optimized mobile experience.",
+            "Optimized for performance and accessibility with clean Webflow structure, fast loading, and scalable content management."
+        ],
+        year: 2025,
+        role: "Webflow Developer",
+        type: "Live Client Project",
+        link: "https://www.onda-retreats.com/",
+    }
 ];
 
 export default projects;
