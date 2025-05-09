@@ -29,7 +29,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="flex justify-center">
-                <h6 className="xxs:text-xs">2024 • Made with love by Vlada Sarokina.</h6>
+                <h6 className="xxs:text-xs">2025 • Made with love by Vlada Sarokina.</h6>
             </div>
         </footer>
     );
